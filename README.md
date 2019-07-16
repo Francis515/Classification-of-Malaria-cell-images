@@ -9,14 +9,9 @@
 * The feature which representing the original image is selected based on the sum of the Harr wavelet response.
 * Four classification methods are used: KNN, Random Forest, SVC, DNN.
 
-infected cell
-![original image](pics/feature/f.png)
-
-features detected by SURF
-![features detected by SURF](pics/feature/allfeature_f.png)
-
-key feature after selection
-![key feature after selection](pics/feature/onefeature_f.png)
+![original image](pics/feature/f.png 'infected cell')
+![features detected by SURF](pics/feature/allfeature_f.png 'features detected by SURF')
+![key feature after selection](pics/feature/onefeature_f.png 'key feature after selection')
 
 ### Dataset
 
