@@ -11,6 +11,7 @@ Keras for DNN.
 ### Methods
 
 * Data reading and format transforming is implemented in Cell_image class.
+* Since the traditional classification methods do not perform well in high dimension, the feature is used as a low dimension representation of the original image.
 * Image features extracted by SURF are used as X for training instead of the original images.
 * The feature which representing the original image is selected based on the sum of the Harr wavelet response.
 * Four classification methods are used: KNN, Random Forest, SVC, DNN.
