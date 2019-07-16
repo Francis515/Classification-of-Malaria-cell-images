@@ -31,4 +31,4 @@ Max the sum of the Harr wavelet response
 
 ### Dataset
 
-* The dataset is omitted. It can be downloaded from [kaggle datasets--cell images for detecting malaria](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria) and put it in project dictory. 
+* The dataset is omitted. It can be downloaded from [kaggle dataset--cell images for detecting malaria](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria) and put it in project dictory. 
