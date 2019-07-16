@@ -20,7 +20,7 @@
 ![features detected by SURF](pics/feature/allfeature_u.png 'features detected by SURF')
 ![key feature after selection](pics/feature/onefeature_u.png 'key feature after selection')
 
-* If the cell get infectious, the selected feature will be located on the Malaria virus. If not infected, the selected feature will be on the edge.
+* If the cell get infected, the selected feature will be located on the Malaria virus. If not infected, the selected feature will be on the edge.
 * Use the discrepancy between two feature descriptors to realize classification.
 
 ### Feature selection
