@@ -9,9 +9,23 @@
 * The feature which representing the original image is selected based on the sum of the Harr wavelet response.
 * Four classification methods are used: KNN, Random Forest, SVC, DNN.
 
+
+### Classification
+
 ![original image](pics/feature/f.png 'infected cell')
 ![features detected by SURF](pics/feature/allfeature_f.png 'features detected by SURF')
 ![key feature after selection](pics/feature/onefeature_f.png 'key feature after selection')
+
+![original image](pics/feature/u.png 'infected cell')
+![features detected by SURF](pics/feature/allfeature_u.png 'features detected by SURF')
+![key feature after selection](pics/feature/onefeature_u.png 'key feature after selection')
+
+* If the cell get infectious, the selected feature will be located on the Malaria virus. If not infected, the selected feature will be on the edge.
+* Use the discrepancy between two feature descriptors to realize classification.
+
+### Feature selection
+
+> $$ max sum{sum{|dx|}_f + sum{|dy|}_f}_{f\in F}$$
 
 ### Dataset
 
