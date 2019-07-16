@@ -1,6 +1,6 @@
 # Statistical Learning Course Project 
 
-## Classification of Malaria cell images
+## Feature based classification of Malaria cell images
 
 ### Methods
 
