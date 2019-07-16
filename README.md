@@ -25,7 +25,9 @@
 
 ### Feature selection
 
-![](http://latex.codecogs.com/gif.latex?\\max\\sum_{f\\inF}{(\\sum{|dx|_f}+\\sum{|dy|}_f)})
+Max the sum of the Harr wavelet response
+
+> ![](http://latex.codecogs.com/gif.latex?\\max\\sum_{f\\inF}{(\\sum{|dx|_f}+\\sum{|dy|}_f)})
 
 ### Dataset
 
