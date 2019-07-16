@@ -15,8 +15,14 @@ Keras for DNN.
 * The feature which representing the original image is selected based on the sum of the Harr wavelet response.
 * Four classification methods are used: KNN, Random Forest, SVC, DNN.
 
+### Feature Selection
 
-### Classification
+* Use SURF to detect features.
+* Maximum the sum of the Harr wavelet response to select one feature.
+
+> ![](http://latex.codecogs.com/gif.latex?\\max_{f}\\sum_{f\\in{F}}{(\\sum{|dx|_f}+\\sum{|dy|}_f)})
+
+where F is the set of all features detected and f is one feature in the set F.
 
 ![original image](pics/feature/f.png 'infected cell')
 ![features detected by SURF](pics/feature/allfeature_f.png 'features detected by SURF')
@@ -28,14 +34,6 @@ Keras for DNN.
 
 * If the cell get infected, the selected feature will be located on the Malaria virus. If not infected, the selected feature will be on the edge.
 * Use the discrepancy between two feature descriptors to realize classification.
-
-### Feature selection
-
-Max the sum of the Harr wavelet response
-
-> ![](http://latex.codecogs.com/gif.latex?\\max_{f}\\sum_{f\\in{F}}{(\\sum{|dx|_f}+\\sum{|dy|}_f)})
-
-where F is the set of all features detected and f is one feature in the set F.
 
 ### Dataset
 
