@@ -25,7 +25,7 @@
 
 ### Feature selection
 
-> $$ max sum{sum{|dx|}_f + sum{|dy|}_f}_{f\in F}$$
+![](http://latex.codecogs.com/gif.latex?\\max{sum{sum{|dx|}_f + sum{|dy|}_f}_{f\in F}})
 
 ### Dataset
 
