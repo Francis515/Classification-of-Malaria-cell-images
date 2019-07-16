@@ -25,7 +25,7 @@
 
 ### Feature selection
 
-![](http://latex.codecogs.com/gif.latex?\\sum{\\sum{|dx|}_{f}+\\sum{|dy|}_{f}}_{f\\in F})
+![](http://latex.codecogs.com/gif.latex?\\sum{\\sum{|dx|}_{f}+\\sum{|dy|}_{f}}_{f\\inF})
 
 ### Dataset
 
