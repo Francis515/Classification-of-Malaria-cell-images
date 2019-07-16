@@ -10,8 +10,8 @@
 * Four classification methods are used: KNN, Random Forest, SVC, DNN.
 
 ![original image](pics/feature/f.png 'infected cell')
-![features detected by SURF](pics/feature/allfeature_f.png 'features detected by SURF')
-![key feature after selection](pics/feature/onefeature_f.png 'key feature after selection')
+![features detected by SURF](pics/feature/onefeature_f.png 'features detected by SURF')
+![key feature after selection](pics/feature/allfeature_f.png 'key feature after selection')
 
 ### Dataset
 
