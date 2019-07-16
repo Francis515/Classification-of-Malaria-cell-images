@@ -10,8 +10,8 @@
 * Four classification methods are used: KNN, Random Forest, SVC, DNN.
 
 ![original image](pics/feature/f.png)
-![features detected by SURF](pics/feature/one_feature.png)
-![key feature after selection](pics/feature/akk_feature.png)
+![features detected by SURF](pics/feature/onefeature_f.png)
+![key feature after selection](pics/feature/allfeature_f.png)
 
 ### Dataset
 
