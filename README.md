@@ -5,9 +5,13 @@
 ### Methods
 
 * Data reading and format transforming is implemented in Cell_image class.
-* Image features extracted by SURF is used as X for training instead of the original images.
-* The feature selection is based on the sum of the Harr wavelet response.
+* Image features extracted by SURF are used as X for training instead of the original images.
+* The feature which representing the original image is selected based on the sum of the Harr wavelet response.
 * Four classification methods are used: KNN, Random Forest, SVC, DNN.
+
+![original image](pics/feature/f.png)
+![features detected by SURF](pics/feature/one_feature.png)
+![key feature after selection](pics/feature/akk_feature.png)
 
 ### Dataset
 
