@@ -33,7 +33,8 @@ Keras for DNN.
 
 Max the sum of the Harr wavelet response
 
-> ![](http://latex.codecogs.com/gif.latex?\\max\\sum_{f\\in{F}}{(\\sum{|dx|_f}+\\sum{|dy|}_f)})
+> ![](http://latex.codecogs.com/gif.latex?\\max_{f}\\sum_{f\\in{F}}{(\\sum{|dx|_f}+\\sum{|dy|}_f)})
+where F is the set of all features detected and f is one feature in the set F.
 
 ### Dataset
 
