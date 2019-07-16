@@ -2,6 +2,12 @@
 
 ## Feature based classification of Malaria cell images using KNN, Random Forest, SVC and DNN.
 
+### Packages
+
+Scikit-learn for KNN, Random Forest, SVC. 
+
+Keras for DNN.
+
 ### Methods
 
 * Data reading and format transforming is implemented in Cell_image class.
